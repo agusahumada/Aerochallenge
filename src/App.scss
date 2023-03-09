@@ -1,0 +1,23 @@
+.App {
+  .header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .user-container{
+      display: flex;
+      justify-content: center;
+      p{
+        margin: 10px 7px 10px;
+        font-size: 24px;
+        color: #616161;
+      }
+      .coins-container{
+        display: flex;
+        background-color: #ededed;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
